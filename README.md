@@ -90,11 +90,9 @@ int writeMux(int channel){
 ```
 
 What this does is create an array that holds each of our multiplexer's control pins, and an array
-which holds the output pins of the muxes' 
-
-
-
-
+which holds the output pins of the muxes'. The for loop determines which channel of the mux we want
+to write to, and the `analogWrite` call after it writes our "on" value (a voltage value of 255) to 
+the appropriate `SIG_pin`.
 
 
 Here's a what this looks like in action:
