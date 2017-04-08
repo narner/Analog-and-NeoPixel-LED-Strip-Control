@@ -41,12 +41,12 @@ ended up working quite well for our purpsoes. This <a href="http://bildr.org/201
 
 ## Parts list:
 
-1 x <a href="https://www.arduino.cc/en/Main/ArduinoBoardUno">Arduino Uno </a>
-1 x <a href="https://www.adafruit.com/products/285">RGB LED weatherproof flexi-strip </a>
-2 x <a href="https://www.sparkfun.com/products/9056">Multiplexer from Sparkfun </a>
-1 x <a href="https://www.adafruit.com/products/352">12V 5A Switching Supply </a>
-20 x <a href="https://www.sparkfun.com/products/10213">N-Channel MOSFET 60V 30A </a>
-20 x <a href="https://www.sparkfun.com/products/11508">10K Ohm Resitors </a>
+* 1 x <a href="https://www.arduino.cc/en/Main/ArduinoBoardUno">Arduino Uno </a>
+* 1 x <a href="https://www.adafruit.com/products/285">RGB LED weatherproof flexi-strip </a>
+* 2 x <a href="https://www.sparkfun.com/products/9056">Multiplexer from Sparkfun </a>
+* 1 x <a href="https://www.adafruit.com/products/352">12V 5A Switching Supply </a>
+* 20 x <a href="https://www.sparkfun.com/products/10213">N-Channel MOSFET 60V 30A </a>
+* 20 x <a href="https://www.sparkfun.com/products/11508">10K Ohm Resitors </a>
 
 
 
