@@ -31,12 +31,66 @@ ended up working quite well for our purpsoes. This <a href="http://bildr.org/201
 
 
 
-
-
-
-
 ## Arduino Sketch
 
+The heart of the Arduino sketch is the method below:
+
+```
+
+
+int writeMux(int channel){
+  //array corresponding to our muxs' control pins
+  int controlPin[] = {s0, s1, s2, s3, s4, s5, s6, s7};
+
+  int muxChannel[20][8]={
+    //Mux 1 
+    {0,0,0,0,0,0,0,0}, //channel 0
+    {1,0,0,0,0,0,0,0}, //channel 1
+    {0,1,0,0,0,0,0,0}, //channel 2
+    {1,1,0,0,0,0,0,0}, //channel 3
+    {0,0,1,0,0,0,0,0}, //channel 4
+    {1,0,1,0,0,0,0,0}, //channel 5
+    {0,1,1,0,0,0,0,0}, //channel 6
+    {1,1,1,0,0,0,0,0}, //channel 7
+    {0,0,0,1,0,0,0,0}, //channel 8
+    {1,0,0,1,0,0,0,0}, //channel 9
+
+    //Max 2
+    {1,1,1,1,0,0,0,0}, //channel 0
+    {1,1,1,1,1,0,0,0}, //channel 1
+    {1,1,1,1,0,1,0,0}, //channel 2
+    {1,1,1,1,1,1,0,0}, //channel 3
+    {1,1,1,1,0,0,1,0}, //channel 4
+    {1,1,1,1,1,0,1,0}, //channel 5
+    {1,1,1,1,0,1,1,0}, //channel 6
+    {1,1,1,1,1,1,1,0}, //channel 7 
+    {1,1,1,1,0,0,0,1}, //channel 8
+    {1,1,1,1,1,0,0,1}, //channel 9
+  }; 
+
+
+  //loop through the 8 sig pins
+  for(int i = 0; i < 8; i ++){
+    digitalWrite(controlPin[i], muxChannel[channel][i]);
+    Serial.println("CHANNEL IS ");
+    Serial.println(muxChannel[channel][i]);
+
+    Serial.println("Control pin IS ");
+    Serial.println(controlPin[i]);
+  }
+
+  //write the value at the SIG pin
+  analogWrite(SIG_pin, testValue);  
+  Serial.println("Test value IS ");
+  Serial.println(testValue);
+
+  //return the value
+  return 0;
+}
+```
+
+What this does is create an array that holds each of our multiplexer's control pins, and an array
+which holds the output pins of the muxes' 
 
 
 
