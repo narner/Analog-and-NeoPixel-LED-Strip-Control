@@ -4,7 +4,7 @@ Illustrating how simple analog interface elements can be used control a digital 
 ## Overview	
 
 This sketch shows how you can use a simple switch and potentiometer to control the colors and 
-number of lit pixels on an Adafruit NeoPixel strip (digital LED strip.
+number of lit pixels on a digital <a href="https://www.adafruit.com/product/1376">Adafruit NeoPixel strip  </a>.
 
 The switch will toggle the strip between red and blue, and the potentiometer will control 
 how many LEDs are lit-up on the strip. 
