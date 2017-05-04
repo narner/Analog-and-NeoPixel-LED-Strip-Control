@@ -6,9 +6,12 @@ Two examples are provided illustrating how to control LED strips from Adafruit; 
 
 Below are the analog and digital circuits in operation:
 
-Analog LED-Multiplexer
-NeoPixel Controls
+<a href="https://github.com/narner/Analog-and-NeoPixel-LED-Strip-Control/tree/master/AnalogLED-Multiplexer">Analog LEDs + Multiplexer</a>.
 
 ![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogLEDCircuit.gif)
+
+
+<a href="https://github.com/narner/Analog-and-NeoPixel-LED-Strip-Control/tree/master/NeoPixelLED-Controls">Adafruit NeoPixel Controls</a>.
+
 
 ![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/NeoPixelCircuit.gif)
