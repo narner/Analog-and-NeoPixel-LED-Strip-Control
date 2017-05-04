@@ -95,7 +95,7 @@ the appropriate `SIG_pin`.
 
 Here's a what this looks like in action:
 
-![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/Circuit.gif)
+![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogLEDCircuit.gif)
 
 
 ## Parts list:
