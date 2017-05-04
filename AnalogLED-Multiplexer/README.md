@@ -16,18 +16,18 @@ ended up working quite well for our purpsoes. This <a href="http://bildr.org/201
 
 ### Circuit Diagram
 
-![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/CircuitDiagram.png)
+![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogLEDStripCircuitDiagram.png)
 
 
 ### Circuit Photos   
 
-![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/Photo1.png)
+![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogPhoto1.png)
 
-![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/Photo2.png)
+![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogPhoto2.png)
 
-![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/Photo3.png)
+![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogPhoto3.png)
 
-![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/Photo4.png)
+![Alt Text](https://github.com/narner/Analog-LED-Multiplexing-Example/raw/master/ReadmeFiles/AnalogPhoto4.png)
 
 
 
@@ -36,8 +36,6 @@ ended up working quite well for our purpsoes. This <a href="http://bildr.org/201
 The heart of the Arduino sketch is the method below:
 
 ```
-
-
 int writeMux(int channel){
   //array corresponding to our muxs' control pins
   int controlPin[] = {s0, s1, s2, s3, s4, s5, s6, s7};
