@@ -1,5 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
+#define PIN 6
+
 const int  switchPin = 3;    // the pin that the push-button is attached to
 int switchState = 0;         // current state of the push-button
 int lastSwitchState = 0;     // previous state of the push-button
